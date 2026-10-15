@@ -1015,8 +1015,23 @@ export default {
       padding: 18px;
    }
 
+   .question-sidebar {
+      max-height: 300px;
+      padding: 14px;
+   }
+
    .question-grid {
-      grid-template-columns: repeat(6, minmax(0, 1fr));
+      grid-template-columns: repeat(auto-fill, 38px);
+      justify-content: start;
+      gap: 6px;
+   }
+
+   .question-grid button {
+      width: 38px;
+      height: 38px;
+      aspect-ratio: auto;
+      border-radius: 7px;
+      font-size: 11px;
    }
 
    .question-heading {
