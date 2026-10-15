@@ -129,6 +129,7 @@ export default {
       max-height: 56px;
       padding: 0 14px;
       overflow-x: auto;
+      overflow-y: hidden;
       scrollbar-width: none;
    }
 
@@ -148,6 +149,7 @@ export default {
       max-height: 56px;
       margin: 0 !important;
       padding: 6px 0;
+      overflow: visible !important;
       white-space: nowrap;
    }
 
