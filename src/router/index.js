@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from "vue-router"; // cài vue-router:
 
 const routes = [
     {
-        path : '/HCM',
+        path : '/',
         component: ()=>import('../components/admin/HCM/index.vue')
     },
     {
