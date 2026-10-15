@@ -1,0 +1,516 @@
+/* Custom navy-dark utilities (plain CSS) */
+
+/* Background Color */
+.bg-navy-dark {
+    background-color: #122379 !important;
+  }
+  
+  .bg-navy-dark-light {
+    background-color: rgba(18, 35, 121, 0.1) !important;
+  }
+  
+  .bg-navy-dark-lighter {
+    background-color: rgba(18, 35, 121, 0.05) !important;
+  }
+  
+  .bg-gradient-navy-dark {
+    background: linear-gradient(135deg, #122379 0%, #0d1550 100%) !important;
+  }
+  
+  /* Text Color */
+  .text-navy-dark {
+    color: #122379 !important;
+  }
+  
+  .text-navy-dark-hover:hover {
+    color: #122379 !important;
+  }
+  
+  /* Border Color - Chỉ set màu, không set style */
+  .border-navy-dark {
+    border-color: #122379 !important;
+  }
+  
+  /* Border Directions - Chỉ set width và style cho hướng cụ thể */
+   
+
+  .border-top {
+    border-top-width: 1px !important;
+    border-top-style: solid !important;
+  }
+  
+  .border-bottom {
+    border-bottom-width: 1px !important;
+    border-bottom-style: solid !important;
+  }
+  
+  .border-left {
+    border-left-width: 1px !important;
+    border-left-style: solid !important;
+  }
+  
+  .border-right {
+    border-right-width: 1px !important;
+    border-right-style: solid !important;
+  }
+  
+  /* Border Width - Chỉ set width, không set style */
+  .border-1 {
+    border-width: 1px !important;
+  }
+  
+  .border-2 {
+    border-width: 2px !important;
+  }
+  
+  .border-3 {
+    border-width: 3px !important;
+  }
+  
+  .border-4 {
+    border-width: 4px !important;
+  }
+  
+  .border-5 {
+    border-width: 5px !important;
+  }
+  
+  /* Border Directions với Width cụ thể */
+  .border-top.border-1 {
+    border-top-width: 1px !important;
+  }
+  
+  .border-top.border-2 {
+    border-top-width: 2px !important;
+  }
+  
+  .border-top.border-3 {
+    border-top-width: 3px !important;
+  }
+  
+  .border-top.border-4 {
+    border-top-width: 4px !important;
+  }
+  
+  .border-top.border-5 {
+    border-top-width: 5px !important;
+  }
+  
+  .border-bottom.border-1 {
+    border-bottom-width: 1px !important;
+  }
+  
+  .border-bottom.border-2 {
+    border-bottom-width: 2px !important;
+  }
+  
+  .border-bottom.border-3 {
+    border-bottom-width: 3px !important;
+  }
+  
+  .border-bottom.border-4 {
+    border-bottom-width: 4px !important;
+  }
+  
+  .border-bottom.border-5 {
+    border-bottom-width: 5px !important;
+  }
+  
+  .border-left.border-1 {
+    border-left-width: 1px !important;
+  }
+  
+  .border-left.border-2 {
+    border-left-width: 2px !important;
+  }
+  
+  .border-left.border-3 {
+    border-left-width: 3px !important;
+  }
+  
+  .border-left.border-4 {
+    border-left-width: 4px !important;
+  }
+  
+  .border-left.border-5 {
+    border-left-width: 5px !important;
+  }
+  
+  .border-right.border-1 {
+    border-right-width: 1px !important;
+  }
+  
+  .border-right.border-2 {
+    border-right-width: 2px !important;
+  }
+  
+  .border-right.border-3 {
+    border-right-width: 3px !important;
+  }
+  
+  .border-right.border-4 {
+    border-right-width: 4px !important;
+  }
+  
+  .border-right.border-5 {
+    border-right-width: 5px !important;
+  }
+  
+  /* Kết hợp Border với Border Color - Set màu cho tất cả các hướng */
+  .border.border-navy-dark {
+    border-color: #122379 !important;
+  }
+  
+  /* Kết hợp Border Direction với Border Color */
+  .border-top.border-navy-dark {
+    border-top-color: #122379 !important;
+  }
+  
+  .border-bottom.border-navy-dark {
+    border-bottom-color: #122379 !important;
+  }
+  
+  .border-left.border-navy-dark {
+    border-left-color: #122379 !important;
+  }
+  
+  .border-right.border-navy-dark {
+    border-right-color: #122379 !important;
+  }
+  
+  /* Outline */
+  .outline-navy-dark {
+    outline-color: #122379 !important;
+    outline-style: solid !important;
+  }
+  
+  .outline-navy-dark:focus {
+    outline: 2px solid #122379 !important;
+    outline-offset: 2px !important;
+  }
+  
+  /* Shadow */
+  .shadow-navy-dark {
+    box-shadow: 0 4px 6px -1px rgba(18, 35, 121, 0.1), 0 2px 4px -1px rgba(18, 35, 121, 0.06) !important;
+  }
+  
+  .shadow-navy-dark-lg {
+    box-shadow: 0 10px 15px -3px rgba(18, 35, 121, 0.1), 0 4px 6px -2px rgba(18, 35, 121, 0.05) !important;
+  }
+  
+  .shadow-navy-dark-xl {
+    box-shadow: 0 20px 25px -5px rgba(18, 35, 121, 0.1), 0 10px 10px -5px rgba(18, 35, 121, 0.04) !important;
+  }
+  
+  .shadow-navy-dark-2xl {
+    box-shadow: 0 25px 50px -12px rgba(18, 35, 121, 0.25) !important;
+  }
+  
+  /* Fill (for SVG) */
+  .fill-navy-dark {
+    fill: #122379 !important;
+  }
+  
+  /* Button Styles */
+  .btn-navy-dark {
+    background-color: #122379 !important;
+    border-color: #122379 !important;
+    color: #ffffff !important;
+  }
+  
+  .btn-navy-dark:hover {
+    background-color: #0d1550 !important;
+    border-color: #0d1550 !important;
+    color: #ffffff !important;
+  }
+  
+  .btn-navy-dark:focus,
+  .btn-navy-dark:active {
+    background-color: #090e38 !important;
+    border-color: #090e38 !important;
+    color: #ffffff !important;
+  }
+  
+  .btn-outline-navy-dark {
+    background-color: transparent !important;
+    border-color: #122379 !important;
+    color: #122379 !important;
+  }
+  
+  .btn-outline-navy-dark:hover {
+    background-color: #122379 !important;
+    border-color: #122379 !important;
+    color: #ffffff !important;
+  }
+  
+  .btn-outline-navy-dark:focus,
+  .btn-outline-navy-dark:active {
+    background-color: #0d1550 !important;
+    border-color: #0d1550 !important;
+    color: #ffffff !important;
+  }
+  
+  /* Badge */
+  .badge-navy-dark {
+    background-color: #122379 !important;
+    color: #ffffff !important;
+  }
+  
+  .badge-outline-navy-dark {
+    background-color: transparent !important;
+    border: 1px solid #122379 !important;
+    color: #122379 !important;
+  }
+  
+  /* Alert */
+  .alert-navy-dark {
+    background-color: rgba(18, 35, 121, 0.1) !important;
+    border-color: #122379 !important;
+    color: #122379 !important;
+  }
+  
+  /* Link */
+  .link-navy-dark {
+    color: #122379 !important;
+  }
+  
+  .link-navy-dark:hover {
+    color: #0d1550 !important;
+  }
+  
+  .link-navy-dark:focus {
+    color: #090e38 !important;
+  }
+  
+  /* Progress Bar */
+  .progress-bar-navy-dark {
+    background-color: #122379 !important;
+  }
+  /* Card - Bootstrap Style với background trắng #ffffff - Override mọi CSS khác */
+  .card,
+  div.card,
+  .card.card,
+  body .card,
+  html .card {
+    position: relative !important;
+    display: flex !important;
+    flex-direction: column !important;
+    min-width: 0 !important;
+    word-wrap: break-word !important;
+    /* background-color: #ffffff !important; */
+    /* background: #ffffff !important; */
+    background-image: none !important;
+    background-clip: border-box !important;
+    /* border: 1px solid rgba(0, 0, 0, 0.125) !important; */
+    border-radius: 0.5rem !important;
+    opacity: 1 !important;
+    overflow: hidden;
+  }
+  
+  .card-body,
+  div.card-body,
+  .card .card-body,
+  body .card-body,
+  html .card-body {
+    flex: 1 1 auto !important;
+    min-height: 1px !important;
+    padding: 1.25rem !important;
+    background-color: transparent !important;
+    /* background: #ffffff !important; */
+    background-image: none !important;
+    opacity: 1 !important;
+  }
+  
+  .card-header,
+  div.card-header,
+  .card .card-header,
+  body .card-header,
+  html .card-header {
+    padding: 0.75rem 1.25rem !important;
+    margin-bottom: 0 !important;
+    background-color: #ffffff !important;
+    background: #ffffff !important;
+    background-image: none !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125) !important;
+    opacity: 1 !important;
+  }
+  
+  .card-footer,
+  div.card-footer,
+  .card .card-footer,
+  body .card-footer,
+  html .card-footer {
+    padding: 0.75rem 1.25rem !important;
+    background-color: #ffffff !important;
+    background: #ffffff !important;
+    background-image: none !important;
+    border-top: 1px solid rgba(0, 0, 0, 0.125) !important;
+    opacity: 1 !important;
+  }
+  
+  .card-title {
+    margin-bottom: 0.75rem;
+  }
+  
+  .card-text:last-child {
+    margin-bottom: 0;
+  }
+  /* Card Border */
+  .card-navy-dark {
+    border-color: #122379 !important;
+  }
+  
+  .card-navy-dark .card-header {
+    background-color: rgba(18, 35, 121, 0.1) !important;
+    border-bottom-color: #122379 !important;
+  }
+  
+  /* Table - Bootstrap Style */
+  .table,
+  table.table,
+  body .table,
+  html .table {
+    width: 100% !important;
+    margin-bottom: 1rem !important;
+    color: #212529 !important;
+    background-color: transparent !important;
+  }
+  
+  .table th,
+  .table td,
+  table.table th,
+  table.table td {
+    padding: 0.75rem !important;
+    vertical-align: top !important;
+    border-top: 1px solid #dee2e6 !important;
+  }
+  
+  .table thead th,
+  table.table thead th {
+    vertical-align: bottom !important;
+    border-bottom: 2px solid #122379 !important;
+    border-bottom: none !important;
+  }
+  
+  .table tbody + tbody,
+  table.table tbody + tbody {
+    border-top: 2px solid #dee2e6 !important;
+  }
+  
+  .table-sm th,
+  .table-sm td,
+  table.table-sm th,
+  table.table-sm td {
+    padding: 0.3rem !important;
+  }
+  
+  .table-bordered,
+  table.table-bordered {
+    border: 1px solid #122379 !important;
+  }
+  
+  .table-bordered th,
+  .table-bordered td,
+  table.table-bordered th,
+  table.table-bordered td {
+    border: 1px solid #122379 !important;
+  }
+  
+  .table-bordered thead th,
+  .table-bordered thead td,
+  table.table-bordered thead th,
+  table.table-bordered thead td {
+    border-bottom-width: 2px !important;
+    /* border-color: #122379 !important; */
+
+  }
+  
+  .table-borderless th,
+  .table-borderless td,
+  .table-borderless thead th,
+  .table-borderless tbody + tbody,
+  table.table-borderless th,
+  table.table-borderless td,
+  table.table-borderless thead th,
+  table.table-borderless tbody + tbody {
+    border: 0 !important;
+  }
+  
+  .table-striped tbody tr:nth-of-type(odd),
+  table.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05) !important;
+  }
+  
+  .table-hover tbody tr:hover,
+  table.table-hover tbody tr:hover {
+    color: #212529 !important;
+    background-color: rgba(0, 0, 0, 0.075) !important;
+  }
+  
+  /* Table Navy Dark */
+  .table-navy-dark {
+    border-color: #122379 !important;
+  }
+  
+  .table-navy-dark thead th {
+    background-color: rgba(18, 35, 121, 0.1) !important;
+    color: #122379 !important;
+    /* border-color: #122379 !important; */
+   
+  }
+  
+  .table-navy-dark tbody tr:hover {
+    background-color: rgba(18, 35, 121, 0.05) !important;
+  }
+  
+  /* List Group */
+  .list-group-item-navy-dark {
+    color: #122379 !important;
+    border-color: #122379 !important;
+  }
+  
+  .list-group-item-navy-dark.active {
+    background-color: #122379 !important;
+    border-color: #122379 !important;
+    color: #ffffff !important;
+  }
+  
+  .list-group-item-navy-dark:hover {
+    background-color: rgba(18, 35, 121, 0.1) !important;
+  }
+  
+  /* Divider */
+  .divider-navy-dark {
+    border-top-color: #122379 !important;
+  }
+  
+  /* Focus Ring */
+  .focus-ring-navy-dark:focus {
+    border-color: #122379 !important;
+    box-shadow: 0 0 0 0.25rem rgba(18, 35, 121, 0.25) !important;
+  }
+  
+  /* Form Control - Đảm bảo text hiển thị đúng màu */
+  .form-control,
+  input.form-control,
+  textarea.form-control,
+  select.form-control {
+    color: inherit !important;
+    -webkit-text-fill-color: currentColor !important;
+  }
+  
+  .form-control:focus,
+  input.form-control:focus,
+  textarea.form-control:focus,
+  select.form-control:focus {
+    color: inherit !important;
+    -webkit-text-fill-color: currentColor !important;
+  }
+  
+  .form-control:not(:placeholder-shown),
+  input.form-control:not(:placeholder-shown),
+  textarea.form-control:not(:placeholder-shown) {
+    color: inherit !important;
+    -webkit-text-fill-color: currentColor !important;
+  }
+  
