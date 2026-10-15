@@ -1,6 +1,10 @@
-import { createRouter, createWebHistory } from "vue-router"; // cài vue-router: npm install vue-router@next --save
+import { createRouter, createWebHashHistory } from "vue-router";
 
 const routes = [
+    {
+        path: '/',
+        redirect: '/HCM'
+    },
     {
         path : '/HCM',
         component: ()=>import('../components/admin/HCM/index.vue')
@@ -12,7 +16,7 @@ const routes = [
 ]
 
 const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHashHistory(import.meta.env.BASE_URL),
     routes: routes
 })
 
