@@ -38,6 +38,12 @@ export default {
    background-color: #f4f5f7;
 } */
 
+@media (max-width: 991px) {
+   #content.headerless-content {
+      padding-top: 16px;
+   }
+}
+
 @media (min-width: 992px) {
    #content.headerless-content {
       margin-top: 64px;
