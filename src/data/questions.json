@@ -3059,8 +3059,8 @@
         "traloi2":  "Hội nghị họp tháng 06/1936.",
         "traloi3":  "Hội nghị họp tháng 11/1939.",
         "traloi4":  "Hội nghị họp tháng 07/1936.",
-        "dapAn":  "traloi1",
-        "dapAnText":  "Hội nghị họp tháng 05/1941."
+        "dapAn":  "traloi3",
+        "dapAnText":  "Hội nghị họp tháng 11/1939."
     },
     {
         "stt":  8,
@@ -3749,8 +3749,8 @@
         "traloi2":  "Bí thư Trịnh Đình Cửu.",
         "traloi3":  "Bí thư Ngô Gia Tự.",
         "traloi4":  "Bí thư Nguyễn Đức Cảnh.",
-        "dapAn":  "traloi2",
-        "dapAnText":  "Bí thư Trịnh Đình Cửu."
+        "dapAn":  "traloi1",
+        "dapAnText":  "Bí thư Trần Văn Cung."
     },
     {
         "stt":  77,
@@ -3959,8 +3959,8 @@
         "traloi2":  "Việt Nam Quốc dân đảng.",
         "traloi3":  "Việt Nam Quang phục hội.",
         "traloi4":  "Việt Nam Nghĩa đoàn.",
-        "dapAn":  "traloi2",
-        "dapAnText":  "Việt Nam Quốc dân đảng."
+        "dapAn":  "traloi4",
+        "dapAnText":  "Việt Nam Nghĩa đoàn."
     },
     {
         "stt":  98,
@@ -3989,8 +3989,8 @@
         "traloi2":  "Tháng 05/1929.",
         "traloi3":  "Tháng 03/1930.",
         "traloi4":  "Tháng 04/1929.",
-        "dapAn":  "traloi3",
-        "dapAnText":  "Tháng 03/1930."
+        "dapAn":  "traloi4",
+        "dapAnText":  "Tháng 04/1929."
     },
     {
         "stt":  101,
@@ -4229,8 +4229,8 @@
         "traloi2":  "Phương pháp so sánh.",
         "traloi3":  "Phương pháp logic.",
         "traloi4":  "Phương pháp lịch sử.",
-        "dapAn":  "traloi1",
-        "dapAnText":  "Phương pháp làm việc nhóm."
+        "dapAn":  "traloi4",
+        "dapAnText":  "Phương pháp lịch sử."
     },
     {
         "stt":  125,
@@ -4769,8 +4769,8 @@
         "traloi2":  "Các doanh nghiệp không có quyền tự chủ sản xuất kinh doanh .Giá cả do nhà nước quy định.",
         "traloi3":  "Nhà nước quản lí kinh tế chủ yếu bằng hệ thống chỉ tiêu pháp lệch chi tiết áp đặt từ trên xuống dưới.",
         "traloi4":  "Bộ máy quản lí cồng kềnh, phong cách cửa quyền, quan liêu.",
-        "dapAn":  "traloi3",
-        "dapAnText":  "Nhà nước quản lí kinh tế chủ yếu bằng hệ thống chỉ tiêu pháp lệch chi tiết áp đặt từ trên xuống dưới."
+        "dapAn":  "traloi4",
+        "dapAnText":  "Bộ máy quản lí cồng kềnh, phong cách cửa quyền, quan liêu."
     },
     {
         "stt":  179,
@@ -5869,8 +5869,8 @@
         "traloi2":  "Văn phòng Chính phủ.",
         "traloi3":  "Quốc hội và Văn phòng Quốc hội.",
         "traloi4":  "Tòa án nhân dân và Viện kiểm sát nhân dân.",
-        "dapAn":  "traloi3",
-        "dapAnText":  "Quốc hội và Văn phòng Quốc hội."
+        "dapAn":  "traloi2",
+        "dapAnText":  "Văn phòng Chính phủ."
     },
     {
         "stt":  290,
